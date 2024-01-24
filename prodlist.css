@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0px;
+    font-family:Arial;
+    border: border-box;
+    color: white;
+    font-family: 'Arial';
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+.topnav {
+    overflow: hidden;
+    background-color: skyblue;
+  }
+  
+  .topnav a {
+ float: right;
+    display: block;
+    color: black;
+    font-family: 600;
+    text-align: center;
+    padding: 3vw 1.5vw;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav  img{
+    height: 80px;
+    width: 80px;
+   
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+.nav-below{
+    background-color: rgb(53, 52, 52);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 15px;
+    font-style: italic;
+}
+.below-nav{
+    background-color: rgb(53, 52, 52);
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.custom-table {
+    border-collapse: collapse;
+    width: 99%;
+}
+.custom-table th {
+    border: 0.1px solid black;
+    padding: 1.5vw;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color:rgb(94, 3, 94);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/**.custom-table th {
+	background-color: gray;
+	color: white;
+}
+**/
+.custom-table td {
+    border: 0.1px solid black;
+    padding: 1.5vw;
+    margin-right: 2vw;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    color:black;
+    background-color: rgb(236, 233, 233);
+}
+.custom-table td:hover {
+    background-color: lightgrey;
+}
+.custom-table td a{
+    color: black;
+    text-decoration: none;
+}
+.custom-table td a:hover{
+    color: blue;
+}
+
+.table-container {
+    margin: 5vw auto;
+    text-align: center;
+    margin-left: 3vw;
+    border-collapse: collapse;
+    box-shadow: 0px 1vw 1.5vw rgba(137, 18, 161, 0.507);
+    overflow: hidden;
+}
+/**.panel-right{
+    margin-left: 1170px;
+    background-color: rgba(137, 18, 161, 0.507);
+    padding: 15px;
+    margin-top: 20px;
+}
+**/
+#footer{
+    height: 20vw;
+    width: 100%;
+    background-color: #e3ae83;
+    
+}
+.foot-panel1{
+    background-color: #d8dce1;
+    color: black;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color:#f2f5f9 ;
+    height: 18vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+.foot-panel2 img{
+    margin-top: 2vw;
+    height: 11vw;
+    width: 11vw;
+}
+ul a{
+    display: block;
+    margin: 0.8vw;
+    color: black;
+    font-size: 1vw;
+    text-decoration: none;
+}
+ul p{
+    color:black;
+    font-size: 1.4vw;
+}
+ul{
+    margin-top: 3vw;
+}
+
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: rgb(255, 249, 249);
+    height:8vh;
+    font-size:0.8vw;
+    text-align: center;
+    
+}
+.pages{
+    padding-top: 1.2vw;
+}
+.copyright{
+    padding-top: 0.1vw;
+}
+@media (max-width:600px) {
+    .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding: 7vw 2vw ;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    .custom-table td{
+        font-size: 2.5vw;
+    }
+    #footer {
+        height: 60vw;
+       
+    }
+    .foot-panel2{
+        background-color:#f2f5f9 ;
+        height: 50vw;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        z-index: 10;
+    }
+    .foot-panel4{
+        background-color: #0f1111;
+        color: rgb(255, 249, 249);
+        height:3.5vh;
+        font-size:0.8vw;
+        text-align: center;
+        
+    }
+    ul p{
+        color:black;
+        font-size: 3vw;
+    }
+    ul a{
+        display: block;
+        margin: 1.2vw;
+        color: black;
+        font-size: 2.5vw;
+        text-decoration: none;
+    }
+    .foot-panel2 img{
+        margin-top: 15vw;
+        height: 19vw;
+        width: 19vw;
+    }
+    .foot-panel2 ul{
+        margin-top: 15vw;
+        height: 19vw;
+        width: 19vw;
+    }
+    .pages a{
+        font-size: 1.7vw;
+    }
+    .copyright p{
+        font-size: 1.7vw;
+    }
+}
+
+
+ 
+   
+   
